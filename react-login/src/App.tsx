@@ -7,7 +7,7 @@ import Auth from "./Auth"
 function App() {
   return (
       <div className="App">
-          <p>test</p>
+          <p>Hello</p>
       <BrowserRouter>
         <Routes>
           <Route path="/auth" element={<Auth />} />
